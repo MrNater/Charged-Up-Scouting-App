@@ -21,4 +21,9 @@ public class MainActivity2 extends AppCompatActivity {
         }); */
 
     }
+    public void clicked2(View view) {
+        Intent next = new Intent(this,MainActivity.class);
+        startActivity(next);
+
+    }
 }
